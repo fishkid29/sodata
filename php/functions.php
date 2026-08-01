@@ -111,7 +111,8 @@ function getStudentName($studentID)
 //get officer abbreviation
 function getOfficerAbbr($position)
 {
-	switch ($position) {
+	switch ($position)
+	 {
 		case "Captain":
 			return "C";
 		case "Vice-Captain":
@@ -129,6 +130,8 @@ function getOfficerAbbr($position)
 			return "Test";
 		case "Secretary":
 			return "S";
+		case "Historian":
+			return "H";
 	}
 }
 
